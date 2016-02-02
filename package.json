@@ -1,0 +1,27 @@
+{
+  "name": "bikeshareDB",
+  "version": "0.0.0",
+  "description": "mongoose application to pull from bikeshare database",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www --exitcrash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sutton/bikeshareDB.git"
+  },
+  "author": "Sutton",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sutton/bikeshareDB/issues"
+  },
+  "dependencies": {
+    "jade": "~1.11.0",
+    "cookie-parser": "~1.4.1",
+    "body-parser": "~1.14.2",
+    "express": "~4.13.4",
+    "nodemon": "~1.8.1",
+    "forever": "~0.15.1",
+    "mongoose": "~4.3.7"
+  }
+}
